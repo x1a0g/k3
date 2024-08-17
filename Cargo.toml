@@ -1,0 +1,15 @@
+[package]
+name = "k3"
+authors = ["x1a0g"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+serde_json = "1.0"
+clap = { version = "4.5.16", features = ["derive"] }
+dirs-2 = "3.0.1"
+base64 = "0.22.1"
+chrono = { version = "0.4", features = ["unstable-locales"] }
+reqwest = {version = "0.12.4",features = ["blocking"]}
