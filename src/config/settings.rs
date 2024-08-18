@@ -49,7 +49,7 @@ k3:
   appid: xxx
   secret: xx
   apikey: xxx
-  http_key: DnAWftGreLUzYxEPHcSs:WpXcHGziMmVATlwEDbRy
+  http_key: xxxddd
 
 "#;
 
