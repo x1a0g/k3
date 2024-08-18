@@ -1,8 +1,10 @@
 <center><font face="黑体" size=16>K3</font></center>
 
-> 使用rust编写的命令行调用大模型工具，目前只支持星火，可以自由diy
+> 使用rust编写的命令行调用大模型工具，目前只支持星火，可以自由diy，适用于linux、windows、macos
 
-![image-20240817164314314](./img/image-20240817164314314.png)
+> mac请自行编译安装
+
+![image-20240817164314314](https://raw.githubusercontent.com/x1a0g/k3/master/img/image-20240817164314314.png)
 
 ## 基础命令
 
@@ -26,7 +28,8 @@ Options:
 
 ```bash
 #下载
-wget http://xxx/xx 
+wget https://github.com/x1a0g/k3/releases/download/v0.0.1/k3-linux-x86_64.zip
+unzip k3-linux-x86_64.zip
 mkdir ~/k3d
 cp ./k3 ~/k3d/k3
 #添加到环境变量（以linux为例，windows自行添加即可）
@@ -36,8 +39,11 @@ export PATH=$PATH:/home/{你的用户名}/k3
 
 ## 编译安装
 
-```
-
+```bash
+# 自行下载代码编译即可
+git clone https://github.com/x1a0g/k3.git
+cd k3
+cargo build
 ```
 
 ## 如何使用
